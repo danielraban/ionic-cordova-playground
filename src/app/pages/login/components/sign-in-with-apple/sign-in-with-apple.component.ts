@@ -13,6 +13,7 @@ export class SignInWithAppleComponent implements OnInit {
   ngOnInit() { }
 
   public initSignInWithApple() {
+    console.log('im here')
     this.signInWithApple.signin({
       requestedScopes: [
         ASAuthorizationAppleIDRequest.ASAuthorizationScopeFullName,

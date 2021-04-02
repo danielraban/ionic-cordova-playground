@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ionicframework.conferenceapp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Ionic Conference App</name>
-    <description>Schedule, speakers, venue.</description>
-    <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
+<widget id="com.danielraban.ioniccordovaplayground" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Ionic Cordova Playground</name>
+    <description>A place to create plugins and modules</description>
+    <author email="hi@danielraban" href="http://danielraban.com/">Ionic Framework Team</author>
     <content original-src="index.html" src="http://localhost:8100" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -103,5 +103,5 @@
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.1.2" />
     <engine name="ios" spec="^4.5.5" />
     <engine name="android" spec="7.0.0" />
-    <allow-navigation href="http://localhost:8100" sessionid="2b0ccd54" />
+    <allow-navigation href="http://localhost:8100" sessionid="9ee770d6" />
 </widget>
