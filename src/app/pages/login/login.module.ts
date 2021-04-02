@@ -5,6 +5,7 @@ import { IonicModule } from '@ionic/angular';
 
 import { LoginPage } from './login';
 import { LoginPageRoutingModule } from './login-routing.module';
+import { SignInWithAppleComponent } from './components/sign-in-with-apple/sign-in-with-apple.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,7 @@ import { LoginPageRoutingModule } from './login-routing.module';
   ],
   declarations: [
     LoginPage,
+    SignInWithAppleComponent,
   ]
 })
 export class LoginModule { }
